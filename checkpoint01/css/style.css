@@ -1,3 +1,154 @@
-body{
-  background-color: green;
+header{
+  background-color: red;
+  color: white;
+  height: 350px;
+  background-image: url(../img/lake-sunset-word-art.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 1px black;
+  font-family: sans-serif;
+
+}
+
+.bio{
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #294E80;
+  height: auto;
+  min-height: 850px;
+  position: relative;
+}
+
+.bio-box{
+  background-color: rgb(255, 255, 255, 75%);
+  width: 75%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+h1{
+  font-family: Philosopher;
+}
+h2{
+  font-size: 12pt;
+  color: #32779b;
+  text-shadow: 2px 1px 3px #FAD878;
+  font-family: sans-serif;
+}
+h3{
+  font-family: Philosopher;
+  color: #32779b;
+  text-shadow: 2px 1px 3px #FAD878;
+  font-size: 28pt;
+}
+h4{
+font-size: 36pt;
+color: #32779b;
+text-shadow: 2px 1px 3px #FAD878;
+font-family: philosopher;
+}
+
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+p{
+color:  #32779b;
+font-size: 16pt;
+text-indent: 20px;
+font-family: philosopher;
+}
+
+.img-of-patti{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.img-of-patti img{
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  border-style: outset;
+  width: 250px;
+  height: 250px;
+
+}
+.icons{
+  width: 30%;
+}
+.contact{
+  width: 30%;
+}
+li{
+  list-style: none;
+  color:  #32779b;
+  font-size: 16pt;
+}
+.about{
+  margin: 40px;
+}
+
+.parallax-img{
+  background-image: url(../img/waterfall.jpg);
+  height: 400px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.programs{
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  background-color: #98AB6E;
+
+}
+.program{
+  border: 2px solid #FAD878;
+  border-radius: 10px;
+  width: 28%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.program p{
+  color: black;
+}
+h5{
+  font-size: 28pt;
+  margin-bottom: 20px;
 }

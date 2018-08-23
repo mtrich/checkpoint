@@ -152,7 +152,7 @@ h5{
   text-shadow: .5px .5px 1px #fff;
   text-align: center;
 }
-/*media querys change direction of contact info and programs. also makes header height smaller as screen width reduces to avoid words going off screen.*/
+/*the media querys change direction of contact info and programs. also makes header height smaller as screen width reduces to avoid words going off screen.*/
 @media (max-width: 700px) {
   header{
     height: 250px;

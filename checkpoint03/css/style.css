@@ -1,0 +1,108 @@
+body{
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: .25fr .5fr 1fr;
+  grid-template-areas:
+  "head head"
+  "dollar right-side"
+  "dollar right-side";
+}
+h1{
+  text-align: center;
+  grid-area: head;
+  border-bottom: 2px solid black;
+  font-size: 48pt;
+  color: green;
+  text-shadow: 2px 2px 4px black;
+  padding-top: 30px;
+  background-image: url("../img/title.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 2px 8px;
+}
+.dollarButton{
+  grid-area: dollar;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/tenor.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset -10px 8px 8px -2px #000;
+}
+img {
+  box-shadow: 5px 8px 8px;
+  cursor:pointer;
+}
+img:active{
+  background-color: #3e8e41;
+  box-shadow: 3px 5px 5px;
+  transform: translateY(2px);
+}
+#dollar {
+  width:500px;
+  height:500px;
+  border-radius:50%;
+}
+.rightSide{
+  grid-area: right-side;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-left: 2px solid black;
+  background-image: url("../img/moneybags.jpg");
+  box-shadow: inset 0px 8px 8px -2px #000;
+}
+.income{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#currentTotal {
+  width:350px;
+  height:100px;
+  border:2px solid black;
+  background-image: url("../img/button.jpg");
+  text-align: center;
+  font-size: 82px;
+  box-shadow: 1px 2px 8px;
+}
+h2{
+  font-size: 16pt;
+  font-weight: bold;
+}
+h3{
+  font-size: 18pt;
+  font-weight: bold;
+}
+#buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width:250px;
+  height:50px;
+  border:1px solid black;
+  border-radius:25px;
+  background-image: url("../img/button.jpg");
+  box-shadow: 1px 2px 8px;
+  text-align: center;
+  cursor:pointer;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:active{
+  box-shadow: 1px 1px 5px;
+  transform: translateY(2px);
+}

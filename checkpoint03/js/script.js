@@ -11,9 +11,10 @@ function addIncome() {
 }
 
 function updateReport() {
-  $("#currentTotal").text('$'+Math.floor(data.totalMoney));
-  $("#income").text((data.income).toFixed(2));
+  $("#currentTotal").text('$' + Math.floor(data.totalMoney));
+  $("#income").text((data.income/1).toFixed(2));
 }
+
 
 $("#dollar").click(function (){
   data.totalMoney ++;
